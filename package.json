@@ -41,5 +41,10 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://icksss.github.io/my-react"
+  "homepage": "https://icksss.github.io/my-react",
+  "devDependencies": {
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.4.2"
+  }
 }
