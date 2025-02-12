@@ -18,7 +18,7 @@ import ReactUseNotification from './routes/ReactUseNotification';
 import ReactUseAxios from './routes/ReactUseAxios';
 import StoreTest from './routes/StoreTest';
 import ToDoList from './routes/ToDoList';
-
+import ToDoDetail2 from './routes/ToDoDetail2';
 function App() {
   return (
     <Router>
@@ -28,6 +28,9 @@ function App() {
         </Route>
         <Route path="/to-do-list">
           <ToDoList />
+        </Route>
+        <Route path="/detail2/:id">
+          <ToDoDetail2 />
         </Route>
         <Route path="/react-useNotification">
           <ReactUseNotification />
