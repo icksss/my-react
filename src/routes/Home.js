@@ -30,6 +30,12 @@ function Home() {
                             <Link to="/">Home</Link>
                         </p>
                         <p>
+                            <Link to="/store-test">Redux Test</Link>
+                        </p>
+                        <p>
+                            <Link to="/to-do-list">ToDoList</Link>
+                        </p>
+                        <p>
                             <Link to="/react-hook">React Hook(useInput)</Link>
                         </p>
                         <p>
