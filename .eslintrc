@@ -1,12 +1,17 @@
 {
-    "extends": ["prettier"],
-    "plugins": ["prettier"],
-    "rules": {
-        "prettier/prettier": [
-            "warn",
-            {
-                "endOfLine": "auto" // Prettier 규칙은 여기에 설정
-            }
-        ]
-    }
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+        "singleQuote": true,
+        "semi": true,
+        "useTabs": false,
+        "tabWidth": 2,
+        "trailingComma": "none"
+      }
+    ]
+  }
 }
