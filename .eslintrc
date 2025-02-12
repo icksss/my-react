@@ -1,11 +1,12 @@
 {
-    "extends": [
-        "prettier"
-    ],
-    "plugins": [
-        "prettier"
-    ],
+    "extends": ["prettier"],
+    "plugins": ["prettier"],
     "rules": {
-        "prettier/prettier": "warn"
+        "prettier/prettier": [
+            "warn",
+            {
+                "endOfLine": "auto" // Prettier 규칙은 여기에 설정
+            }
+        ]
     }
 }
